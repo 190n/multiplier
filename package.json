@@ -1,0 +1,25 @@
+{
+    "name": "multiplier",
+    "version": "0.0.1",
+    "description": "multiply anything",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -u tdd test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/190n/multiplier.git"
+    },
+    "devDependencies": {
+        "underscore": "^1.8.3"
+    },
+    "keywords": [
+        "utility"
+    ],
+    "author": "190n",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/190n/multiplier/issues"
+    },
+    "homepage": "https://github.com/190n/multiplier"
+}
