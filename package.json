@@ -17,7 +17,16 @@
         "utility"
     ],
     "author": "190n",
-    "license": "MIT",
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "GPL-3.0",
+            "url": "http://www.opensource.org/licenses/gpl-3.0.html"
+        }
+    ],
     "bugs": {
         "url": "https://github.com/190n/multiplier/issues"
     },

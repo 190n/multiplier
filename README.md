@@ -35,4 +35,4 @@ console.log(multiplier(true, 1)); // => true
 license
 -------
 
-MIT
+MIT/GPL 3.0 dual license
