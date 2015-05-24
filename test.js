@@ -30,10 +30,11 @@ suite('multiplier', function() {
         assert(_.isEqual(multiplier(o, 5), [o, o, o, o, o]));
         assert(_.isEqual(multiplier(true, 2), [true, true]));
     });
-    test('multiplying by 1 returns original object', function() {
+    test('multiplying by 1 returns original object unless third argument is true', function() {
         assert.equal(multiplier(4, 1), 4);
         assert.equal(multiplier('Foo!', 1), 'Foo!');
         assert(_.isEqual(multiplier([1, 2, 3], 1), [1, 2, 3]));
         assert(_.isEqual(multiplier(true, 1), true));
+        assert(_.isEqual(multiplier(false, 1, true), [false]));
     });
 })

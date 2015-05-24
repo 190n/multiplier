@@ -1,5 +1,5 @@
-module.exports = function(a, b) {
-    if(b === 1) return a;
+module.exports = function(a, b, c) {
+    if(b === 1 && !c) return a;
     if(typeof a == 'number') return a * b;
     if(typeof a == 'string') {
         var result = '';

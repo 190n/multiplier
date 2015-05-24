@@ -30,6 +30,9 @@ console.log(multiplier({foo: 'bar'}, 3)); // => [{foo: 'bar'}, {foo: 'bar'}, {fo
 // multiplying by 1 yields original argument
 console.log(multiplier(4, 1)); // => 4
 console.log(multiplier(true, 1)); // => true
+
+// unless third argument is true
+console.log(multiplier(false, 1, true)); // => [false]
 ```
 
 license
